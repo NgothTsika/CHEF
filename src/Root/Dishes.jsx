@@ -75,7 +75,7 @@ const Dishes = () => {
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className=" grid grid-cols-3 gap-5 md:grid-flow-col md:justify-center md:space-x-2  "
+            className=" grid grid-cols-3 gap-5 md:grid-cols-5 lg:grid-flow-col md:justify-center md:space-x-2  "
           >
             {LINK.map((link, index) => (
               <a
